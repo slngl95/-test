@@ -1,0 +1,126 @@
+body{
+		background: url(http://www.stickpng.com/assets/images/5845e13e7733c3558233c0ec.png);
+		background-size: 15%;
+		background-repeat: repeat;
+		background-color: pink;
+	}
+
+.menu { 
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	background-color: black;
+
+}
+.baniere {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	font-family: verdana;
+	font-size: 30px;
+	color: white;
+
+}
+
+.baniere img {
+
+	max-width: 10%;
+	max-height: auto
+}
+
+.cathead {
+		-moz-transform: scaleX(-1);
+        	-o-transform: scaleX(-1);
+      		-webkit-transform: scaleX(-1);
+        	transform: scaleX(-1);
+        	filter: FlipH;
+        	-ms-filter: "FlipH";
+}
+
+.boutons {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.boutons ul{
+	padding: 0;
+	margin: 20;
+	list-style-type: none;
+
+
+}
+.boutons li{
+	margin-left: 2;
+	float: left;
+}
+
+.boutons ul li a {
+	display: block;
+	float: left;
+	width: 150px; ----------------------
+	background-color: violet;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	font-family: impact;
+	font-size: 20px;
+	font-size-adjust: auto;
+	padding: 10px;
+	
+
+}
+
+.boutons ul li a:hover {
+	background-color: #c97b9a;
+
+}
+
+.article {
+	display: flex;
+	flex-direction: row;
+
+}
+
+.qui {
+	flex-direction: column;
+	justify-content: center;
+	margin:auto;
+	padding-left: 5px;
+	padding-right: 5px;
+	color: black;
+	background-color: pink;
+	font-family: verdana;
+	border: 5px solid black;
+	border-top: none;
+
+
+}
+
+.qui h2 {
+	font-family: impact;
+	font-size: 40px;
+	text-decoration: underline;
+	text-align: center;
+}
+
+
+.solene {
+	flex-direction: column;
+	justify-content: center;
+	padding-top: auto;
+	padding-left: 60px;
+	padding-right: 40px;
+	background-color: black;
+	color: white;
+	text-align: left;
+	font-family: verdana;
+	list-style-type: none;
+
+}
+
+.solene ul li {
+	list-style-type: none;
+}
